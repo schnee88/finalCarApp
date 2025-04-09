@@ -54,11 +54,7 @@ class CarController extends Controller
     // Delete a car
     public function destroy(Car $car)
     {
-        $this->authorize('delete', $car);
-
         $car->delete();
-
-        return redirect()->route('cars.index')
-            ->with('success', 'Mašīna dzēsta veiksmīgi!');
+    return redirect()->route('cars.index')->with('success', 'Mašīna veiksmīgi dzēsta!');
     }
 }

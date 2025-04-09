@@ -18,7 +18,7 @@
             </div>
 
             <div class="mb-4">
-                <label for="registration_number" class="block text-sm font-medium">Reģistrācijas numurs</label>
+                <label for="registration_number" class="block text-sm font-medium">Numur Zīme</label>
                 <input id="registration_number" name="registration_number" type="text" required class="mt-1 block w-full" />
             </div>
 
