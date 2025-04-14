@@ -8,17 +8,17 @@
             @csrf
 
             <div class="mb-4">
-                <label for="make" class="block text-sm font-medium">Marka</label>
+                <label for="make" style="color: azure;" class="block text-sm font-medium">Marka</label>
                 <input id="make" name="make" type="text" required class="mt-1 block w-full" />
             </div>
 
             <div class="mb-4">
-                <label for="model" class="block text-sm font-medium">Modelis</label>
+                <label for="model" style="color: azure;" class="block text-sm font-medium">Modelis</label>
                 <input id="model" name="model" type="text" required class="mt-1 block w-full" />
             </div>
 
             <div class="mb-4">
-                <label for="registration_number" class="block text-sm font-medium">Numur Zīme</label>
+                <label for="registration_number" style="color: azure;" class="block text-sm font-medium">Numur Zīme</label>
                 <input id="registration_number" name="registration_number" type="text" required class="mt-1 block w-full" />
             </div>
 

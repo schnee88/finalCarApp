@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <div class="flex justify-between items-center">
-            <h2 class="font-semibold text-xl text-red-800">
+            <h2 class="font-semibold text-xl text-blue-400">
                 {{ $car->make }} {{ $car->model }} ({{ $car->registration_number }})
             </h2>
             <a href="{{ route('cars.index') }}" class="text-sm text-blue-600">← Atpakaļ</a>
